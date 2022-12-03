@@ -31,7 +31,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "hello world prod"}
+    return {"message": "hello world prod bind"}
 
 # class DCR(BaseModel):
 #     language: str
